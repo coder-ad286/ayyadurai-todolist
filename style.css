@@ -1,0 +1,103 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins',sans-serif;
+    background: yellow;
+
+}
+.container{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	border: 1px solid black;
+	border-radius: 15px;
+	position: relative;
+	top: 60px;
+   background: black;
+   height: 100vh;
+   width: 450px;
+}
+.content{
+	background: black;
+}
+.recieve{
+	position: relative;
+	top: 70px;
+	background: black;
+}
+h3{
+	position: relative;
+	top: 50px;
+	background: black;
+	color: white;
+    letter-spacing: 5px;
+}
+h4{
+	position: relative;
+	top: 250px;
+	color: white;
+	background: black;
+	letter-spacing: 5px;
+}
+button{
+	width:80px;
+	font-weight: bold;
+}
+input{
+	font-weight: bold;
+    outline: none;
+    width: 250px;
+    border: 1px solid black;
+    box-shadow: rgba(255, 255, 0, 0.24) 0px 3px 8px;
+}
+input,button{
+	margin: 10px;
+	padding: 5px;
+	border-radius:10px ;
+    box-shadow: rgba(255, 255, 0, 0.24) 0px 3px 8px;
+}
+ul{
+	position: relative;
+	top: 100px;
+	background: black;
+	width: 450px;
+	border-radius:15px ;
+}
+li{
+	margin: 15px;
+	display: flex;
+	justify-content: space-between;
+	list-style-type: none;
+	border: /1px solid black;
+	padding: 5px;
+	border-radius: 15px;
+	border-bottom-left-radius:15px ;
+	border-bottom-right-radius:15px ;
+    box-shadow: rgba(255, 255, 0, 0.24) 0px 3px 8px;
+
+}
+li div{
+	color: black;
+	font-weight: bold;
+}
+i{
+	position: relative;
+	top: 2px;
+	right: 10px;
+	cursor: pointer;
+}
+body{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+h4 div{
+	color:white;
+	background: black;
+	font-weight: normal;
+	letter-spacing: normal;
+	position: relative;
+	top: 250px;
+	left: 25px;
+}
