@@ -16,7 +16,7 @@
 	top: 60px;
    background: black;
    height: 100vh;
-   width: 450px;
+   width: 380px;
 }
 .content{
 	background: black;
@@ -61,7 +61,7 @@ ul{
 	position: relative;
 	top: 100px;
 	background: black;
-	width: 450px;
+	width: 380px;
 	border-radius:15px ;
 }
 li{
@@ -69,8 +69,9 @@ li{
 	display: flex;
 	justify-content: space-between;
 	list-style-type: none;
-	border: /1px solid black;
+	border: 1px solid black;
 	padding: 5px;
+	width:360px;
 	border-radius: 15px;
 	border-bottom-left-radius:15px ;
 	border-bottom-right-radius:15px ;
