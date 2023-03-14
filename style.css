@@ -15,8 +15,9 @@
 	position: relative;
 	top: 60px;
    background: black;
-   height: 100vh;
-   width: 300px;
+   min-height: 400px;
+   max-height: 1000px;
+   width: 350px;
 }
 .content{
 	background: black;
@@ -41,13 +42,13 @@ h4{
 	letter-spacing: 5px;
 }
 button{
-	width:80px;
+	
 	font-weight: bold;
 }
 input{
 	font-weight: bold;
     outline: none;
-    width: 250px;
+   
     border: 1px solid black;
     box-shadow: rgba(255, 255, 0, 0.24) 0px 3px 8px;
 }
@@ -61,7 +62,7 @@ ul{
 	position: relative;
 	top: 100px;
 	background: black;
-	width: 300px;
+	width: 350px;
 	border-radius:15px ;
 }
 li{
@@ -71,7 +72,7 @@ li{
 	list-style-type: none;
 	border: 1px solid black;
 	padding: 5px;
-	width:280px;
+	width:330px;
 	border-radius: 15px;
 	border-bottom-left-radius:15px ;
 	border-bottom-right-radius:15px ;
